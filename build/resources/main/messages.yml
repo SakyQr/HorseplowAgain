@@ -1,0 +1,25 @@
+# HorsePlowingAgain Messages
+# Created by SakyQ
+# Use & for color codes
+
+plugin:
+  enabled: "&aHorseplowingAgain plugin has been enabled!"
+  disabled: "&cHorseplowingAgain plugin has been disabled!"
+
+plow:
+  equipped: "&aYou equipped a plow to this horse!"
+  unequipped: "&cYou removed the plow from this horse."
+  in_use: "&ePlowing the fields..."
+  cooldown: "&cThe plow is cooling down!"
+  equip_cooldown: "&cYou must wait %time% seconds before equipping/unequipping a plow again."
+  durability_warning: "&eYour plow is getting worn out! (%durability% uses left)"
+  broken: "&cYour plow has broken!"
+
+command:
+  reload: "&aConfiguration reloaded!"
+  help: "&6HorsePlowing Commands:\n&e/horseplow reload &7- Reload configuration\n&e/horseplow give &7- Give yourself a horse plow"
+
+error:
+  not_owner: "&cYou don't own this horse!"
+  not_horse: "&cThis isn't a horse!"
+  no_permission: "&cYou don't have permission to use this command!"

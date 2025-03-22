@@ -1,0 +1,26 @@
+name: HorsePlowingAgain
+version: '1.0-SNAPSHOT'
+main: org.SakyQ.horseplowingAgain.HorseplowingAgain
+api-version: '1.21'
+author: SakyQ
+description: A Minecraft plugin that allows horses to pull plows and till soil
+
+commands:
+  horseplow:
+    description: Main command for HorsePlowingAgain plugin
+    usage: /horseplow [reload|give]
+    aliases: [hplow, hpa]
+    permission: horseplow.use
+
+permissions:
+  horseplow.use:
+    description: Allows use of basic horseplow commands
+    default: true
+  horseplow.give:
+    description: Allows giving a horse plow item
+    default: op
+  horseplow.admin:
+    description: Allows reload and admin functions
+    default: op
+    children:
+      horseplow.give: true

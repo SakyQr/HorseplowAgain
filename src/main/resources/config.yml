@@ -1,0 +1,49 @@
+# HorsePlowingAgain Configuration
+# Created by SakyQ
+
+# Plow settings
+plow:
+  # Radius of blocks to plow (in blocks)
+  radius: 3
+
+  # Cooldown between plowing operations (in ticks, 20 ticks = 1 second)
+  cooldown: 20
+
+  # Equipment cooldown (in seconds) to prevent abuse when equipping/unequipping
+  equip_cooldown: 5
+
+  # Maximum durability of the plow before breaking
+  durability: 500
+
+  # Warning threshold for durability (percentage)
+  durability_warning: 25
+
+  # Minecart follow settings
+  minecart_follow_distance: 2.0
+  minecart_offset_y: -0.5
+
+  # Visual and sound effects
+  particles_enabled: true
+  sound_enabled: true
+  sound_type: BLOCK_FARMLAND_TILL
+  sound_volume: 1.0
+  sound_pitch: 1.0
+
+  # Permission settings
+  only_horse_owner: true
+  allow_minecart_damage: false
+
+  # Block types that can be plowed (Material names)
+  plowable_blocks:
+    - GRASS_BLOCK
+    - DIRT
+    - DIRT_PATH
+    - COARSE_DIRT
+
+  # Should the plow work on crops to harvest them?
+  harvest_crops: true
+  harvestable_crops:
+    - WHEAT
+    - CARROTS
+    - POTATOES
+    - BEETROOTS

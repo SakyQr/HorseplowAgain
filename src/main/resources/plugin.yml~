@@ -1,0 +1,4 @@
+name: HorseplowingAgain
+version: '1.0-SNAPSHOT'
+main: org.SakyQ.horseplowingAgain.HorseplowingAgain
+api-version: '1.21'
